@@ -1,0 +1,16 @@
+{
+  "name": "arcane-grid-server",
+  "version": "1.0.0",
+  "description": "Serveur multijoueur pour Arcane Grid",
+  "main": "arcane-server.js",
+  "scripts": {
+    "start": "node arcane-server.js",
+    "dev": "node arcane-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
