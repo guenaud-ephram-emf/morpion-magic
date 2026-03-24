@@ -2535,7 +2535,7 @@
 
     function mpGetServerUrl() {
       // URL de votre serveur Railway (remplacez par la vôtre)
-      const CLOUD_SERVER = 'morpion-magic-production.up.railway.app';
+      const CLOUD_SERVER = 'morpion-magic-production.up.railway.app:8080';
       // En local (même machine), connecte au serveur local
       if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
         return `ws://localhost:${location.port || 3000}`;
